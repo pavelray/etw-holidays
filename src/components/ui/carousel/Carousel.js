@@ -19,20 +19,20 @@ const Carousel = ({
     setCurrent(index);
   };
 
-    useEffect(() => {
-      if (!autoSlide) return;
-      const nextBtn = document.getElementById('carousel-slide');
-      if (nextBtn === null) return;
-      const slideInterval = setInterval(goToNextSlide, autoSlideInterval);
-      nextBtn.addEventListener('mouseenter', () => {
-        clearInterval(slideInterval);
-      });
-      nextBtn.addEventListener('mouseleave', () => {
-        setInterval(goToNextSlide, autoSlideInterval);
-      });
-      // eslint-disable-next-line consistent-return
-      return () => clearInterval(slideInterval);
-    }, [autoSlide, autoSlideInterval, goToNextSlide]);
+  useEffect(() => {
+    if (!autoSlide) return;
+    const nextBtn = document.getElementById("carousel-slide");
+    if (nextBtn === null) return;
+    const slideInterval = setInterval(goToNextSlide, autoSlideInterval);
+    nextBtn.addEventListener("mouseenter", () => {
+      clearInterval(slideInterval);
+    });
+    nextBtn.addEventListener("mouseleave", () => {
+      setInterval(goToNextSlide, autoSlideInterval);
+    });
+    // eslint-disable-next-line consistent-return
+    return () => clearInterval(slideInterval);
+  }, [autoSlide, autoSlideInterval, goToNextSlide]);
 
   return (
     <Fragment>
@@ -48,6 +48,16 @@ const Carousel = ({
           <button onClick={goToPrevSlide}>
             <span class="material-symbols-outlined">chevron_left</span>
           </button>
+          <div className="slide-content text-center">
+            <h1 className="hero-title">
+              Travel expert for international travel
+            </h1>
+            <hr />
+            <div>
+              <p>Let&apos;s book the vacation of your dreams!</p>
+              <p>** DMC Represent Company for Thailand and SriLanka **</p>
+            </div>
+          </div>
           <button onClick={goToNextSlide}>
             <span class="material-symbols-outlined">chevron_right</span>
           </button>

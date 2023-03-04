@@ -7,7 +7,7 @@ export const style = css`
   .slide-container {
     position: relative;
     overflow: hidden;
-    max-height: 60vmin;
+    max-height: 110vmin;
   }
 
   .slide {
@@ -18,7 +18,6 @@ export const style = css`
   }
 
   .slide-image {
-    zoom: 1.5;
     width: 100%;
     object-fit: cover;
   }
@@ -30,7 +29,11 @@ export const style = css`
     align-items: center;
     justify-content: space-between;
     padding: 14px;
-    height: 60vmin;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.25) 0%,
+      rgba(0, 0, 0, 0.25) 100%
+    );
+    backdrop-filter: blur(1px);
   }
 
   .carousel-indicators {
@@ -40,22 +43,30 @@ export const style = css`
     left: 0px;
   }
 
+  .slide-content {
+    color: rgb(247, 247, 247);
+  }
+  .hero-title {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
   .carousel-indicators--wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
+    gap: 0.5rem;
   }
 
   .carousel-indicator {
-    width: .9rem;
-    height: .9rem;
+    width: 0.9rem;
+    height: 0.9rem;
     background: white;
     border-radius: 100%;
-    opacity: .5;
+    opacity: 0.5;
   }
 
-  .carousel-indicator--active{
+  .carousel-indicator--active {
     padding: 2px;
     opacity: 1;
   }

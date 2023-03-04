@@ -1,17 +1,21 @@
-import { Inter } from "@next/font/google";
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import { style } from "@/styles/Home.style";
 import { ImageCarousel } from "@/components/ui/carousel/ImageCarousel";
 import { BANNER_IMAGES } from "@/utils/constants";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Fragment } from "react";
+import AboutUs from "@/components/business/AboutUs/AboutUs";
+import MeetTheTeam from "@/components/business/MeetTeam/MeetTeam";
 
 export default function Home() {
   return (
-    <>
-      <main className="main">
-        <ImageCarousel carouselSlides={BANNER_IMAGES}/>
+    <Fragment>
+      <ImageCarousel carouselSlides={BANNER_IMAGES} />
+      <main className="container">
+        <AboutUs />
+        <MeetTheTeam />
       </main>
       <style jsx>{style}</style>
-    </>
+    </Fragment>
   );
 }

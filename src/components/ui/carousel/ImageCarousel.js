@@ -5,18 +5,16 @@ import { v4 as uuidv4 } from "uuid";
 import { style } from "./ImageCarousel.style";
 import Carousel from "./Carousel";
 
-const ImageCarousel = ({
-  carouselSlides,
-}) => {
+const ImageCarousel = ({ carouselSlides }) => {
   const slides = carouselSlides;
   return (
     <Fragment>
       <div className="carousel-container">
-        <Carousel autoSlide>
+        <Carousel>
           {slides.map((slide) => (
             <img
               key={`carousel_slide_${uuidv4()}`}
-              className="slide-image"
+              className="slide-image img-fluid"
               src={slide.url}
               alt={slide.name}
             />
