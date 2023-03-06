@@ -45,7 +45,7 @@ const AboutUs = () => {
             <div className="card-body">
               <h5 className="card-title">Expertise</h5>
               <p className="card-text">
-                DMC Company for Thailand and SriLanka.
+                DMC Represent Company for Thailand and SriLanka.
               </p>
             </div>
           </div>

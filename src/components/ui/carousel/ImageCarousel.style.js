@@ -53,6 +53,8 @@ export const style = css`
   .hero-title {
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.3rem;
   }
 
   .carousel-indicators--wrapper {

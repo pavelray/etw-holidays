@@ -14,7 +14,7 @@ const TourDomestic = () => {
               <img
                 src="https://images.unsplash.com/photo-1616190419596-e2839e7380d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Kashmir"
+                alt="Kashmir travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Kashmir</h5>
@@ -30,7 +30,7 @@ const TourDomestic = () => {
               <img
                 src="https://images.unsplash.com/photo-1536295243470-d7cba4efab7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Ladakh"
+                alt="Ladakh travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Ladakh</h5>
@@ -46,7 +46,7 @@ const TourDomestic = () => {
               <img
                 src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Kerala"
+                alt="Kerala travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Kerala</h5>
@@ -62,7 +62,7 @@ const TourDomestic = () => {
               <img
                 src="https://images.unsplash.com/photo-1578999935853-4ec5fa6c1f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Rajasthan"
+                alt="Rajasthan travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Rajasthan</h5>
@@ -78,7 +78,7 @@ const TourDomestic = () => {
               <img
                 src="https://images.unsplash.com/photo-1569734147512-2caa1ea7d8df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Darjeeling & Gangtok"
+                alt="Darjeeling & Gangtok travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Darjeeling & Gangtok</h5>
@@ -94,7 +94,7 @@ const TourDomestic = () => {
               <img
                 src="https://images.unsplash.com/photo-1589882485484-c073e3742e60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Assam"
+                alt="Assam travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Assam</h5>

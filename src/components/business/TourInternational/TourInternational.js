@@ -14,7 +14,7 @@ const TourInternational = () => {
               <img
                 src="https://images.unsplash.com/photo-1494949360228-4e9bde560065?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Thailand"
+                alt="Thailand travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Thailand</h5>
@@ -30,7 +30,7 @@ const TourInternational = () => {
               <img
                 src="https://images.unsplash.com/photo-1619183318129-cd95bc882275?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Sri Lanka"
+                alt="Sri Lanka travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Sri Lanka</h5>
@@ -46,7 +46,7 @@ const TourInternational = () => {
               <img
                 src="https://images.unsplash.com/photo-1565967511849-76a60a516170?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Singapore"
+                alt="Singapore travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Singapore</h5>
@@ -62,7 +62,7 @@ const TourInternational = () => {
               <img
                 src="https://images.unsplash.com/photo-1597148543182-830ef7bbb904?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Malaysia"
+                alt="Malaysia travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Malaysia</h5>
@@ -78,7 +78,7 @@ const TourInternational = () => {
               <img
                 src="https://images.unsplash.com/photo-1546412414-e1885259563a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Dubai"
+                alt="Dubai travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Dubai</h5>
@@ -94,7 +94,7 @@ const TourInternational = () => {
               <img
                 src="https://images.unsplash.com/photo-1528127269322-539801943592?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
                 className="card-img-top img-circle"
-                alt="Vietnam"
+                alt="Vietnam travel package"
               />
               <div className="card-body">
                 <h5 className="card-title">Vietnam</h5>

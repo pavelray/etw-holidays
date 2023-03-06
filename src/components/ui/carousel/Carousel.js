@@ -45,7 +45,13 @@ const Carousel = ({
         >
           {slides}
         </div>
-        <div className={!hideControl ? `slide-control-wrapper`: `slide-control-wrapper slide-control-center`}>
+        <div
+          className={
+            !hideControl
+              ? `slide-control-wrapper`
+              : `slide-control-wrapper slide-control-center`
+          }
+        >
           {!hideControl && (
             <button onClick={goToPrevSlide}>
               <span class="material-symbols-outlined">chevron_left</span>
@@ -53,12 +59,14 @@ const Carousel = ({
           )}
           <div className="slide-content text-center">
             <h1 className="hero-title">
-              Travel expert for international travel
+              Welcome to ETW Holidays
             </h1>
+            <h2>Your Destination for Memorable Travel
+              Experiences</h2>
             <hr />
             <div>
-              <p>Let&apos;s book the vacation of your dreams!</p>
-              <p>** DMC Represent Company for Thailand and SriLanka **</p>
+              <h4>Explore New Places with Our Guided Tours and Local Experts</h4>
+              <h4>** DMC Represent Company for Thailand and SriLanka **</h4>
             </div>
           </div>
           {!hideControl && (
@@ -93,13 +101,13 @@ Carousel.propTypes = {
   children: PropTypes.node.isRequired,
   autoSlide: PropTypes.bool,
   autoSlideInterval: PropTypes.number,
-  hideControl: PropTypes.bool
+  hideControl: PropTypes.bool,
 };
 
 Carousel.defaultProps = {
   autoSlide: false,
   autoSlideInterval: 3000,
-  hideControl: false
+  hideControl: false,
 };
 
 export default Carousel;
