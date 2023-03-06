@@ -19,7 +19,9 @@ const NavbarMenu = () => {
     <Fragment>
       <nav className="navbar">
         <div className="logo-container">
-          <Image src={LOGO_BLACK} alt="Home_Logo" width={50} height={50} />
+          <span className="logo">
+            <Image src={LOGO_BLACK} alt="Home_Logo" width={50} height={50} />
+          </span>
           <span>ETW Holidays</span>
         </div>
         <ul>

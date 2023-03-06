@@ -11,6 +11,7 @@ const style = css`
     width: 100%;
     z-index: 1;
     margin-bottom: 1rem;
+    top: 0px;
 
     ul {
       list-style: none;
@@ -37,6 +38,12 @@ const style = css`
     font-size: 1.5rem;
     gap: 15px;
     font-family: Lusitana, Georgia, serif;
+    color: #2A3990;
+  }
+
+  .logo{
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
 `;
 

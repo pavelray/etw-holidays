@@ -2,6 +2,7 @@ import css from "styled-jsx/css";
 
 export const style = css`
   .carousel-container {
+    margin-top: -10vmin;
   }
 
   .slide-container {

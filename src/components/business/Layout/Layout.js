@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
               Copyright © 2023 Explore The World Holidays - All Rights Reserved.
             </p>
             <hr width="10%" />
-            <p className="pt-0">Developed by #Ray</p>
+            <p className="pt-0"><a href="https://www.pavelray.in" target="_blank" rel="noreferrer">Developed by #Ray</a></p>
           </div>
         </div>
       </footer>

@@ -1,10 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import { Fragment } from "react";
-import ServiceFeature from "@/components/business/ServiceFeatures/ServiceFeature";
-import TourInternational from "@/components/business/TourInternational/TourInternational";
-import TourDomestic from "@/components/business/TourDomestic/TourDomestic";
 import Image from "next/image";
 import { SOCIAL } from "@/utils/constants";
+
 import Link from "next/link";
 
 export default function Contact() {
@@ -99,26 +97,57 @@ export default function Contact() {
                     to hear from you!
                     <br />
                     Drop a email at{" "}
-                    <a href="mailto:admin@etwholidays.com">
-                      admin@etwholidays.com
+                    <a
+                      href="mailto:holidays@etwholidays.com"
+                      className="ps-2 link-underline"
+                    >
+                      holidays@etwholidays.com
                     </a>
+                    <br />
+                    <br />
+                    <Link
+                      href="https://api.whatsapp.com/send?phone=919474122359"
+                      legacyBehavior
+                    >
+                      <a target="_blank" className="btn btn-secondary">
+                        <span className="pe-3">
+                          <Image
+                            src={SOCIAL.WHATSAPP}
+                            alt="Whatsapp"
+                            width={34}
+                            height={34}
+                          ></Image>
+                        </span>
+                        <span>Message us on Whatsapp</span>
+                      </a>
+                    </Link>
                   </p>
                   <h4 className="pt-3">Etw Holidays</h4>
                   <h6>Explore The World</h6>
                   <p className="py-4">
                     Madhyamgram, Kolkata, West Bengal, India
                     <br />
-                    <a href="tel:+919474122359">+91 94741 22359</a>
+                    <a href="tel:+919474122359" className="link">
+                      +91 94741 22359
+                    </a>
                     <br />
-                    <a href="mailto:admin@etwholidays.com">
+                    <a href="mailto:admin@etwholidays.com" className="link">
                       admin@etwholidays.com
                     </a>
+                  </p>
+                  <p>
+                    <h4>Hours</h4>
+                    <span className="fw-bold">Monday - Friday:</span> 10:00 am - 7:00 pm <br />
+                    <span className="fw-bold">Saturday-Sunday:</span> Closed
                   </p>
                   <div className="py-2">
                     <h4>Social</h4>
                     <p>
                       <span>
-                        <Link href="https://www.facebook.com/profile.php?id=100090625833007" legacyBehavior>
+                        <Link
+                          href="https://www.facebook.com/profile.php?id=100090625833007"
+                          legacyBehavior
+                        >
                           <a target="_blank">
                             <Image
                               src={SOCIAL.FACEBOOK}
