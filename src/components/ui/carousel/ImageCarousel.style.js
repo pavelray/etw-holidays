@@ -30,10 +30,9 @@ export const style = css`
     justify-content: space-between;
     padding: 14px;
     background-image: linear-gradient(
-      rgba(0, 0, 0, 0.25) 0%,
-      rgba(0, 0, 0, 0.25) 100%
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.45) 100%
     );
-    backdrop-filter: blur(1px);
   }
 
   .slide-control-center {

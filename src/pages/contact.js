@@ -3,6 +3,9 @@ import { Fragment } from "react";
 import ServiceFeature from "@/components/business/ServiceFeatures/ServiceFeature";
 import TourInternational from "@/components/business/TourInternational/TourInternational";
 import TourDomestic from "@/components/business/TourDomestic/TourDomestic";
+import Image from "next/image";
+import { SOCIAL } from "@/utils/constants";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -12,7 +15,7 @@ export default function Contact() {
           <h2>Frequently Asked Questions</h2>
           <hr />
           <div className="card mb-3 border-0 text-center pb-5 pt-5">
-            <div className="row g-5">
+            <div className="row g-5 align-items-center">
               <div className="col-md-6">
                 <img
                   src="https://img1.wsimg.com/isteam/stock/107268/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600"
@@ -37,7 +40,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="card mb-3 border-0 text-center pb-5">
-            <div className="row g-0">
+            <div className="row g-5 align-items-center">
               <div className="col-md-6">
                 <div className="card-body">
                   <h5 className="card-title">
@@ -61,7 +64,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="card mb-3 border-0 text-center pb-5">
-            <div className="row g-0">
+            <div className="row g-5 align-items-center">
               <div className="col-md-6">
                 <img
                   src="https://img1.wsimg.com/isteam/stock/jaVeZxY/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600"
@@ -111,6 +114,23 @@ export default function Contact() {
                       admin@etwholidays.com
                     </a>
                   </p>
+                  <div className="py-2">
+                    <h4>Social</h4>
+                    <p>
+                      <span>
+                        <Link href="https://www.facebook.com/profile.php?id=100090625833007" legacyBehavior>
+                          <a target="_blank">
+                            <Image
+                              src={SOCIAL.FACEBOOK}
+                              alt="Facebook"
+                              width={40}
+                              height={40}
+                            />
+                          </a>
+                        </Link>
+                      </span>
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="col-md-6">

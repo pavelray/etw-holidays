@@ -4,7 +4,7 @@ const style = css`
   .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 0.8rem 0;
     align-items: center;
     position: fixed;
     background-color: rgba(233, 230, 218);
@@ -20,6 +20,10 @@ const style = css`
       margin-bottom: 0;
       font-family: Lusitana, Georgia, serif;
     }
+    .active {
+      color: #2A3990;
+      border-bottom: 2px solid #2A3990;
+    }
   }
 
   .logo-container {
@@ -31,7 +35,8 @@ const style = css`
     margin-left: 5rem;
     font-weight: 400;
     font-size: 1.5rem;
-    font-family: "Damion", cursive;
+    gap: 15px;
+    font-family: Lusitana, Georgia, serif;
   }
 `;
 

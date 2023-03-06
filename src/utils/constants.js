@@ -16,3 +16,16 @@ export const BANNER_IMAGES = [
     name: "Singapore",
   },
 ];
+
+export const MENUS = [
+  { link: "/", text: "Home" },
+  { link: "/service", text: "Services" },
+  { link: "/holiday", text: "Holidays" },
+  { link: "/contact", text: "Contact Us" },
+];
+
+
+export const LOGO_BLACK = '/images/logos/ETW-logo-black.png';
+export const SOCIAL = {
+  FACEBOOK: '/images/social/facebook_logo_icon.png'
+}
