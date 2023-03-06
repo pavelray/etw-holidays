@@ -10,7 +10,7 @@ const ImageCarousel = ({ carouselSlides }) => {
   return (
     <Fragment>
       <div className="carousel-container">
-        <Carousel>
+        <Carousel autoSlide autoSlideInterval={5000} hideControl>
           {slides.map((slide) => (
             <img
               key={`carousel_slide_${uuidv4()}`}

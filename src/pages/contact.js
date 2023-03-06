@@ -115,7 +115,7 @@ export default function Contact() {
               </div>
               <div className="col-md-6">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14257.181369378402!2d89.6110576!3d26.7030102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe2156aaa91eba05!2sAaltapori%20Homestay!5e0!3m2!1sen!2sin!4v1674551403560!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58893.994674118476!2d88.47968099999999!3d22.69570915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89f5960049ae5%3A0x9d2131345ca95d1!2sMadhyamgram%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1678078765957!5m2!1sen!2sin"
                   style={{ border: 0 }}
                   width="100%"
                   height="500px"

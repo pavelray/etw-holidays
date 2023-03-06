@@ -36,6 +36,10 @@ export const style = css`
     backdrop-filter: blur(1px);
   }
 
+  .slide-control-center {
+    justify-content: center;
+  }
+
   .carousel-indicators {
     position: absolute;
     bottom: 14px;
