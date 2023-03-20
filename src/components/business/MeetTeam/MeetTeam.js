@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import React from "react";
 import { style } from "./MeetTeam.style";
 
@@ -8,13 +9,15 @@ const MeetTheTeam = () => {
       <h2>Meet The Team</h2>
       <hr />
       <div className="d-flex flex-wrap pt-5 gap-3">
-        <div className="card mb-3" style={{ maxWidth: "540px" }}>
+        <div className="card mb-3 border-0" style={{ maxWidth: "540px" }}>
           <div className="row g-0">
             <div className="col-md-4">
-              <img
-                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              <Image
+                src="/images/amitabha.jpeg"
                 className="img-fluid rounded-start"
-                alt="TeamMember1"
+                alt="Amitabha Banerjee"
+                width={180}
+                height={180}
               />
             </div>
             <div className="col-md-8">
@@ -32,13 +35,15 @@ const MeetTheTeam = () => {
             </div>
           </div>
         </div>
-        <div className="card mb-3" style={{ maxWidth: "540px" }}>
+        <div className="card mb-3 border-0" style={{ maxWidth: "540px" }}>
           <div className="row g-0">
             <div className="col-md-4">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                 className="img-fluid rounded-start"
                 alt="TeamMember1"
+                width={180}
+                height={180}
               />
             </div>
             <div className="col-md-8">
