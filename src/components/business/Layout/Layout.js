@@ -1,11 +1,11 @@
 import NavbarMenu from "@/components/ui/Navbar/Navbar";
 import React, { Fragment } from "react";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, isMobile }) => {
   return (
     <Fragment>
-      <NavbarMenu />
-      {children}
+      <NavbarMenu isMobile={isMobile}/>
+      <div className="pt-5">{children}</div>
       <footer>
         <div className="container pt-5 mt-5">
           <hr />
@@ -14,7 +14,15 @@ const Layout = ({ children }) => {
               Copyright © 2023 Explore The World Holidays - All Rights Reserved.
             </p>
             <hr width="10%" />
-            <p className="pt-0"><a href="https://www.pavelray.in" target="_blank" rel="noreferrer">Developed by #Ray</a></p>
+            <p className="pt-0">
+              <a
+                href="https://www.pavelray.in"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Developed by #Ray
+              </a>
+            </p>
           </div>
         </div>
       </footer>

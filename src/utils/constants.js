@@ -25,7 +25,7 @@ export const MENUS = [
 ];
 
 
-export const LOGO_BLACK = '/images/logos/ETW-logo-black.png';
+export const LOGO_BLACK = '/images/logos/ETW_Holidays_Black.png';
 export const SOCIAL = {
   FACEBOOK: '/images/social/facebook_logo_icon.png',
   WHATSAPP: '/images/social/whatsapp.png'

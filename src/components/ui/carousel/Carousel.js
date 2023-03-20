@@ -54,24 +54,24 @@ const Carousel = ({
         >
           {!hideControl && (
             <button onClick={goToPrevSlide}>
-              <span class="material-symbols-outlined">chevron_left</span>
+              <span className="material-symbols-outlined">chevron_left</span>
             </button>
           )}
           <div className="slide-content text-center">
             <h1 className="hero-title">
               Welcome to ETW Holidays
             </h1>
-            <h2>Your Destination for Memorable Travel
+            <h2 className="hero-subtitle">Your Destination for Memorable Travel
               Experiences</h2>
             <hr />
             <div>
-              <h4>Explore New Places with Our Guided Tours and Local Experts</h4>
-              <h4>** Specialized for Thailand and SriLanka Tours **</h4>
+              <h4 className="text">Explore New Places with Our Guided Tours and Local Experts</h4>
+              <h4 className="text">** Specialized for Thailand and SriLanka Tours **</h4>
             </div>
           </div>
           {!hideControl && (
             <button onClick={goToNextSlide}>
-              <span class="material-symbols-outlined">chevron_right</span>
+              <span className="material-symbols-outlined">chevron_right</span>
             </button>
           )}
         </div>

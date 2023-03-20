@@ -66,7 +66,7 @@ export default function Contact() {
               <div className="col-md-6">
                 <img
                   src="https://img1.wsimg.com/isteam/stock/jaVeZxY/:/rs=w:1200,h:600,cg:true,m/cr=w:1200,h:600"
-                  class="img-fluid rounded-start"
+                  className="img-fluid rounded-start"
                   alt="..."
                 />
               </div>
@@ -135,11 +135,11 @@ export default function Contact() {
                       admin@etwholidays.com
                     </a>
                   </p>
-                  <p>
+                  <div>
                     <h4>Hours</h4>
                     <span className="fw-bold">Monday - Friday:</span> 10:00 am - 7:00 pm <br />
                     <span className="fw-bold">Saturday-Sunday:</span> Closed
-                  </p>
+                  </div>
                   <div className="py-2">
                     <h4>Social</h4>
                     <p>

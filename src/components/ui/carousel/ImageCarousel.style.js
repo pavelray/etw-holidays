@@ -1,8 +1,19 @@
 import css from "styled-jsx/css";
 
 export const style = css`
+  @import "../../../styles/mixins";
   .carousel-container {
-    margin-top: -10vmin;
+    margin-top: -5vmin;
+
+    @include mobile {
+      margin-top: 0rem;
+    }
+    @include mobile-landscape {
+      margin-top: 0rem;
+    }
+    @include tablet {
+      margin-top: 0rem;
+    }
   }
 
   .slide-container {
@@ -45,6 +56,7 @@ export const style = css`
     bottom: 14px;
     right: 0px;
     left: 0px;
+    z-index: 1;
   }
 
   .slide-content {
@@ -55,6 +67,40 @@ export const style = css`
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     word-spacing: 0.3rem;
+
+    @include mobile {
+      font-size: 1rem;
+    }
+    @include mobile-landscape {
+      font-size: 1rem;
+    }
+    @include tablet {
+      font-size: 1rem;
+    }
+  }
+
+  .hero-subtitle {
+    @include mobile {
+      font-size: .8rem;
+    }
+    @include mobile-landscape {
+      font-size: .8rem;
+    }
+    @include tablet {
+      font-size: 1rem;
+    }
+  }
+
+  .text {
+    @include mobile {
+      font-size: .6rem;
+    }
+    @include mobile-landscape {
+      font-size: .7rem;
+    }
+    @include tablet {
+      font-size: 7rem;
+    }
   }
 
   .carousel-indicators--wrapper {
