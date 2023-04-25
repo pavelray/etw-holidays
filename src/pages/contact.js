@@ -124,6 +124,9 @@ export default function Contact() {
                   </p>
                   <h4 className="pt-3">Etw Holidays</h4>
                   <h6>Explore The World</h6>
+                  <h6 className="link">
+                    <b>GST:</b> 19BBXPB8991C1Z1
+                  </h6>
                   <p className="py-4">
                     Madhyamgram, Kolkata, West Bengal, India
                     <br />
@@ -137,7 +140,8 @@ export default function Contact() {
                   </p>
                   <div>
                     <h4>Hours</h4>
-                    <span className="fw-bold">Monday - Friday:</span> 10:00 am - 7:00 pm <br />
+                    <span className="fw-bold">Monday - Friday:</span> 10:00 am -
+                    7:00 pm <br />
                     <span className="fw-bold">Saturday-Sunday:</span> Closed
                   </div>
                   <div className="py-2">

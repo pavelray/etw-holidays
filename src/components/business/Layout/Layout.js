@@ -11,7 +11,7 @@ const Layout = ({ children, isMobile }) => {
           <hr />
           <div className="d-flex flex-column justify-content-center align-items-center py-3">
             <p className="pt-2">
-              Copyright © 2023 Explore The World Holidays - All Rights Reserved.
+              Copyright © 2023 ETW Holidays - Explore The World - All Rights Reserved.
             </p>
             <hr width="10%" />
             <p className="pt-0">
