@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps, isMobile }) {
         />
         <meta property="og:site_name" content="ETW Holdiays" />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:image" content="/images/logos/ETW-logo-black.png" />
+        <meta property="og:image" content="/images/icons/ETW_Logo.png" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="ETW Holdiays" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
