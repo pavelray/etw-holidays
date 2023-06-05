@@ -13,7 +13,7 @@ const MeetTheTeam = () => {
           <div className="row g-0">
             <div className="col-md-4">
               <Image
-                src="/images/amitabha.jpeg"
+                src="/images/business/amitabha.jpeg"
                 className="img-fluid rounded-start"
                 alt="Amitabha Banerjee"
                 width={180}
