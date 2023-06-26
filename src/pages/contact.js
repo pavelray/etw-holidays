@@ -122,7 +122,7 @@ export default function Contact() {
                       </a>
                     </Link>
                   </p>
-                  <h4 className="pt-3">Etw Holidays</h4>
+                  <h4 className="pt-3">ETW Holidays</h4>
                   <h6>Explore The World</h6>
                   <h6 className="link">
                     <b>GST:</b> 19BBXPB8991C1Z1
