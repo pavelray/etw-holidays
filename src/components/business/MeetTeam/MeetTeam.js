@@ -24,9 +24,7 @@ const MeetTheTeam = () => {
               <div className="card-body">
                 <h5 className="card-title">Amitabha Banerjee</h5>
                 <p className="card-text">
-                  Amitabha Banerjee. Click to edit and tell your visitors about
-                  this team member. Do they have any special certifications?
-                  What are their favorite travel destinations?
+                  Amitabha Banerjee the founder of ETW Holidays. Experienced in DMC tours and travels. Worked with multiple Travel and Tourism Companies.
                 </p>
                 <p className="card-text">
                   <small className="text-muted">Founder</small>
@@ -35,7 +33,7 @@ const MeetTheTeam = () => {
             </div>
           </div>
         </div>
-        <div className="card mb-3 border-0" style={{ maxWidth: "540px" }}>
+        {/* <div className="card mb-3 border-0" style={{ maxWidth: "540px" }}>
           <div className="row g-0">
             <div className="col-md-4">
               <Image
@@ -60,7 +58,7 @@ const MeetTheTeam = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <style jsx>{style}</style>
     </section>

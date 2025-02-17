@@ -13,7 +13,7 @@ const AboutUs = () => {
           travel partner for discovering the beauty of{" "}
           <b>
             Domestic and International
-            <i>(Thailand, SriLanka, Malaysia, Singapore)</i>
+            <i>(Thailand)</i>
           </b>
           . We are a team of travel enthusiasts who are passionate about
           creating unforgettable experiences for our clients.

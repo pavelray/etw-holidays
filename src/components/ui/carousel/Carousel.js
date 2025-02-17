@@ -66,7 +66,7 @@ const Carousel = ({
             <hr />
             <div>
               <h4 className="text">Explore New Places with Our Guided Tours and Local Experts</h4>
-              <h4 className="text">** Specialized for Thailand and SriLanka Tours **</h4>
+              <h4 className="text">** Specialized for Thailand **</h4>
             </div>
           </div>
           {!hideControl && (

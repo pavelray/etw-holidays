@@ -25,7 +25,7 @@ const TourInternational = () => {
               </div>
             </div>
           </div>
-          <div className="col">
+          {/* <div className="col">
             <div className="card border-0">
               <img
                 src="https://images.unsplash.com/photo-1619183318129-cd95bc882275?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&h=430&q=80"
@@ -104,7 +104,7 @@ const TourInternational = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <style jsx>{style}</style>
