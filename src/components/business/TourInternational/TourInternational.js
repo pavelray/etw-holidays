@@ -19,8 +19,10 @@ const TourInternational = () => {
               <div className="card-body">
                 <h5 className="card-title">Thailand</h5>
                 <p className="card-text">
-                  Having a big sale, on-site celebrity, or other event? Be sure
-                  to announce it so everybody knows and gets excited about it.
+                  Explore the vibrant charm of Thailand with our all-inclusive
+                  travel package! From stunning beaches and rich culture to
+                  buzzing nightlife and delicious cuisine — experience the best
+                  of Bangkok, Phuket, and beyond.
                 </p>
               </div>
             </div>

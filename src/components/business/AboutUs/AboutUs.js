@@ -9,14 +9,25 @@ const AboutUs = () => {
       <hr />
       <div className="about-us-wrapper pt-5">
         <div className=" lead pb-5">
-          Welcome to <b>ETW Holidays (Explore the World)</b>, your ultimate
-          travel partner for discovering the beauty of{" "}
-          <b>
-            Domestic and International
-            <i>(Thailand)</i>
-          </b>
-          . We are a team of travel enthusiasts who are passionate about
-          creating unforgettable experiences for our clients.
+          <p>
+            Welcome to <b>ETW Holidays (Explore the World)</b>, we specialize in
+            curating <strong>exclusive, high-end travel experiences</strong>{" "}
+            across the breathtaking landscapes of Thailand. With an{" "}
+            <em>intimate knowledge</em> of the country and a{" "}
+            <em>passion for exceptional service</em>, we craft{" "}
+            <strong>bespoke journeys</strong> that blend <strong>luxury</strong>
+            , <strong>comfort</strong>, and{" "}
+            <em>authentic cultural immersion</em>.
+          </p>
+          <p>
+            From <strong>private island retreats</strong> and{" "}
+            <strong>five-star resorts</strong> to{" "}
+            <em>curated culinary experiences</em> and
+            <em>personalized guided tours</em>, every detail is thoughtfully
+            designed to <strong>exceed expectations</strong>. Discover Thailand
+            in <strong>unparalleled style</strong> — because{" "}
+            <em>you deserve nothing less than extraordinary</em>.
+          </p>
         </div>
         <div className="card-group gap-5 text-center">
           <div className="card border-0">

@@ -10,7 +10,7 @@ export default function Holiday() {
           Experience the World - Choose from Our Wide Range of Destinations
         </h3>
         <TourInternational />
-        <TourDomestic />
+        {/* <TourDomestic /> */}
       </main>
     </Fragment>
   );

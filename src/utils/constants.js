@@ -4,16 +4,24 @@ export const BANNER_IMAGES = [
     name: "Thailand",
   },
   {
-    url: "https://images.unsplash.com/photo-1537551080512-fb7dd14fbf90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-    name: "Srilanka",
+    url: "https://images.unsplash.com/photo-1528181304800-259b08848526?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Thailand",
   },
   {
-    url: "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-    name: "Malaysia",
+    url: "https://plus.unsplash.com/premium_photo-1661929242720-140374d97c94?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Thailand",
   },
   {
-    url: "https://images.unsplash.com/photo-1654252698747-1fa4cb059b9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-    name: "Singapore",
+    url: "https://images.unsplash.com/photo-1608788524926-41b5181b89a2?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Thailand",
+  },
+  {
+    url: "https://images.unsplash.com/photo-1644902617098-45abe72a7445?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Thailand",
+  },
+  {
+    url: "https://images.unsplash.com/photo-1578230201683-63955239ce3e?q=80&w=3130&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Thailand",
   },
 ];
 
